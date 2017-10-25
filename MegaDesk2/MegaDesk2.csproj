@@ -100,6 +100,9 @@
     </Compile>
     <Compile Include="Desk.cs" />
     <Compile Include="DeskQuote.cs" />
+    <Compile Include="DisplayQuotes.xaml.cs">
+      <DependentUpon>DisplayQuotes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -127,6 +130,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="AddQuote.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DisplayQuotes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
