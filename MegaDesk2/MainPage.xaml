@@ -7,7 +7,11 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+    <Grid Background="#FFFFFFFF">
+        
+        <Button x:Name="addNewQuote" Content="Add Quote" HorizontalAlignment="Left" Margin="277,232,0,0" VerticalAlignment="Top" Height="148" Width="272" Click="addNewQuote_Click"/>
+        <Button x:Name="viewQuote1" Content="View Quotes" HorizontalAlignment="Left" Margin="277,470,0,0" VerticalAlignment="Top" Height="148" Width="278"/>
+        <Button x:Name="searchQuotes" Content="Search" HorizontalAlignment="Left" Margin="744,232,0,0" VerticalAlignment="Top" Height="148" Width="278"/>
+        <Button x:Name="Exit" Content="Exit" HorizontalAlignment="Left" Margin="744,470,0,0" VerticalAlignment="Top" Height="148" Width="278"/>
     </Grid>
 </Page>

@@ -26,5 +26,12 @@ namespace MegaDesk2
         {
             this.InitializeComponent();
         }
+
+        private void addNewQuote_Click(object sender, RoutedEventArgs e)
+        {
+                      
+           
+            Frame.Navigate(typeof(AddQuote));
+        }
     }
 }
