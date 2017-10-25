@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="#FFCD9D9D">
+    <Grid Background="#FFFDFDFD">
 
         <Button x:Name="addNewQuote" Content="Add Quote" HorizontalAlignment="Left" Margin="277,232,0,0" VerticalAlignment="Top" Height="148" Width="272" Click="addNewQuote_Click"/>
         <Button x:Name="viewQuote1" Content="View Quotes" HorizontalAlignment="Left" Margin="277,470,0,0" VerticalAlignment="Top" Height="148" Width="278"/>
