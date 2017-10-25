@@ -135,5 +135,9 @@ namespace MegaDesk2
              this.deskQuote = current;
 
         }
+
+
+
+
     }
 }
